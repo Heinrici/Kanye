@@ -7,6 +7,8 @@ class PagesController < ApplicationController
   end
   #back end for pages/profile
   def profile
+    #grab username from id
+    @username = params[:id]
   end
   #back end for pages/explore
   def explore
