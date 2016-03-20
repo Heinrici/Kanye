@@ -1,0 +1,16 @@
+<%= form_for(@newPost) do |f| %>
+  <div class="panel panel-default post-form-panel">
+    <div class="panel-body row">
+      <div class="col-sm-11">
+        <div class="Field">
+          <%= f.text_field :content, autofocus: true %>
+              </div>
+          <div class="actions">
+          <%= f.submit "Add Post" %>
+          <%= f.file_field :photo %>
+          </div>
+      </div>
+    </div>
+  </div>
+
+<% end %>

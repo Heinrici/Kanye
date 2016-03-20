@@ -1,4 +1,7 @@
 source 'https://rubygems.org'
+gem 'imagemagick-binaries', '~> 6.8', '>= 6.8.7.5.1'
+#Fileuploadanddisplay
+gem 'paperclip', '~> 4.3', '>= 4.3.6'
 #devise
 gem 'devise'
 #for twitter ui components
