@@ -2,6 +2,14 @@ Rails.application.routes.draw do
   devise_for :users
   #defines the root url
   resources :posts
+  resources :photos
+  resources :photo
+  resources :photo_file_name
+  resources :photo_content_type
+  resources :photo_file_size
+  resources :photo_updated_at
+  
+
   root'pages#index'
   #routes
   get '/home' =>  'pages#home'
